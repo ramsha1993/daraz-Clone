@@ -1,0 +1,433 @@
+
+    [
+      {
+        "id": 1,
+        "name": "LED",
+        "category": "Electronics",
+        "description": "High-quality LED lights for home and office use.",
+        "price": 15.99,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/7f5b7b9890e557acebcf66936e9076ef.jpg_200x200q80.jpg_.webp",
+        "rating": 4.5,
+        "stock": 30
+      },
+      {
+        "id": 2,
+        "name": "Sofa Cover",
+        "category": "Home Decor",
+        "description": "Stylish and durable sofa cover for protection and comfort.",
+        "price": 20.99,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/81250c5dddd020a66824bd6aa2e52f9a.jpg_200x200q80.jpg_.webp",
+        "rating": 4.0,
+        "stock": 50
+      },
+      {
+        "id": 3,
+        "name": "Drawers",
+        "category": "Furniture",
+        "description": "Wooden storage drawers perfect for organizing your space.",
+        "price": 40.99,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/67412b33cac995c5e19e09656d1456c7.jpg_200x200q80.jpg_.webp",
+        "rating": 4.2,
+        "stock": 20
+      },
+      {
+        "id": 4,
+        "name": "Dressing Table",
+        "category": "Furniture",
+        "description": "Elegant and spacious dressing table with mirror.",
+        "price": 100.99,
+        "image": "https://img.drz.lazcdn.com/g/kf/S292a61796bd8409ead6e292d389168d2l.jpg_200x200q80.jpg_.webp",
+        "rating": 4.8,
+        "stock": 10
+      },
+      {
+        "id": 5,
+        "name": "Dressing Table",
+        "category": "Furniture",
+        "description": "Modern dressing table with multiple drawers and mirror.",
+        "price": 120.00,
+        "image": "https://img.drz.lazcdn.com/g/kf/S5137aed759b443beb30e0e61bf10e62c1.jpg_200x200q80.jpg_.webp",
+        "rating": 4.7,
+        "stock": 15
+      },
+      {
+        "id": 6,
+        "name": "Drawers",
+        "category": "Furniture",
+        "description": "Functional and stylish storage drawers.",
+        "price": 35.99,
+        "image": "https://img.drz.lazcdn.com/g/kf/S386ea62c67da41a68695e5e5caec7a87u.jpg_200x200q80.jpg_.webp",
+        "rating": 4.3,
+        "stock": 18
+      },
+      {
+        "id": 7,
+        "name": "Drawers",
+        "category": "Furniture",
+        "description": "A set of three functional wooden drawers for organizing.",
+        "price": 45.50,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/bac6c3f933d4db2fcd1b0ca07dad53b1.jpg_200x200q80.jpg_.webp",
+        "rating": 4.6,
+        "stock": 25
+      },
+      {
+        "id": 8,
+        "name": "Printer",
+        "category": "Electronics",
+        "description": "Wireless printer with high-speed printing capability.",
+        "price": 80.00,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/8bbfb91abae3862a4d5f6c83b8ef872d.jpg_200x200q80.jpg_.webp",
+        "rating": 4.4,
+        "stock": 40
+      },
+      {
+        "id": 9,
+        "name": "Printer",
+        "category": "Electronics",
+        "description": "Compact home printer with ink-saving technology.",
+        "price": 70.00,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/2f8e6fc7a30ec1bcaa8b85c5ff693f0b.jpg_200x200q80.jpg_.webp",
+        "rating": 4.3,
+        "stock": 35
+      },
+      {
+        "id": 10,
+        "name": "Printer",
+        "category": "Electronics",
+        "description": "Color laser printer with automatic duplex printing.",
+        "price": 120.00,
+        "image": "https://img.drz.lazcdn.com/g/kf/S09b9b1f7d9744d2ba82d44fc62d23441p.jpg_200x200q80.jpg_.webp",
+        "rating": 4.7,
+        "stock": 10
+      },
+      {
+        "id": 11,
+        "name": "Printer",
+        "category": "Electronics",
+        "description": "Compact printer for both home and office use.",
+        "price": 75.00,
+        "image": "https://img.drz.lazcdn.com/g/kf/S1bbeec6c275d4755b01b377c9a1492f89.jpg_200x200q80.jpg_.webp",
+        "rating": 4.2,
+        "stock": 50
+      },
+      {
+        "id": 12,
+        "name": "Floor Tile",
+        "category": "Home Improvement",
+        "description": "Durable floor tiles for both interior and exterior use.",
+        "price": 2.99,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/8f372850d7d3d38e198fe23d8212e804.jpg_200x200q80.jpg_.webp",
+        "rating": 4.4,
+        "stock": 100
+      },
+      {
+        "id": 13,
+        "name": "Washing Machine Cover",
+        "category": "Home Appliances",
+        "description": "Protective cover for washing machines to extend their lifespan.",
+        "price": 9.99,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/1f9ebb20133753ed5f779660a28f2301.jpg_200x200q80.jpg_.webp",
+        "rating": 4.0,
+        "stock": 60
+      },
+      {
+        "id": 14,
+        "name": "Washing Machine Cover",
+        "category": "Home Appliances",
+        "description": "Heavy-duty cover to protect washing machines from dust and water.",
+        "price": 11.50,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/dcf0a146825620477fe3b40de7d58af5.jpg_200x200q80.jpg_.webp",
+        "rating": 4.5,
+        "stock": 70
+      },
+      {
+        "id": 15,
+        "name": "Washing Machine Cover",
+        "category": "Home Appliances",
+        "description": "Weather-resistant cover for outdoor washing machines.",
+        "price": 12.00,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/318a3414be16d16b85afad6f68691397.jpg_200x200q80.jpg_.webp",
+        "rating": 4.3,
+        "stock": 40
+      },
+      {
+        "id": 16,
+        "name": "Washing Machine Cover",
+        "category": "Home Appliances",
+        "description": "Durable and waterproof washing machine cover.",
+        "price": 13.99,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/60fc07b2c8bedf5a0b204691f9db5bd6.jpg_200x200q80.jpg_.webp",
+        "rating": 4.6,
+        "stock": 30
+      },
+      {
+        "id": 17,
+        "name": "Eyeshade",
+        "category": "Health & Beauty",
+        "description": "Soft and comfortable eyeshade for improved sleep quality.",
+        "price": 5.99,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/74fd7f293cb9d53e3f24582084b60507.jpg_200x200q80.jpg_.webp",
+        "rating": 4.7,
+        "stock": 100
+      },
+      {
+        "id": 18,
+        "name": "Water Dispenser",
+        "category": "Home Appliances",
+        "description": "Electric water dispenser with temperature control for hot and cold water.",
+        "price": 30.00,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/4d7ecb699a4b147df26a1a1506f67212.jpg_200x200q80.jpg_.webp",
+        "rating": 4.8,
+        "stock": 15
+      },
+      {
+        "id": 19,
+        "name": "Water Dispenser",
+        "category": "Home Appliances",
+        "description": "Portable and compact water dispenser for home use.",
+        "price": 25.99,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/71a8b330f26ab6c4a8557b69e86b4a0d.jpg_200x200q80.jpg_.webp",
+        "rating": 4.4,
+        "stock": 50
+      },
+      {
+        "id": 20,
+        "name": "Water Dispenser",
+        "category": "Home Appliances",
+        "description": "Water dispenser with fast water cooling and heating functions.",
+        "price": 40.00,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/0321782e82f1b9b6c1c1e1c370cda3b7.jpg_200x200q80.jpg_.webp",
+        "rating": 4.9,
+        "stock": 30
+      },
+      {
+        "id": 21,
+        "name": "Smartphone",
+        "category": "Electronics",
+        "description": "Latest model smartphone with 128GB storage and 5G support.",
+        "price": 699.00,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/c9e75e6e0e23b920d6a1b2d09185e2db.jpg_200x200q80.jpg_.webp",
+        "rating": 4.6,
+        "stock": 40
+      },
+      {
+        "id": 22,
+        "name": "Laptop",
+        "category": "Electronics",
+        "description": "High-performance laptop with 16GB RAM and 512GB SSD.",
+        "price": 999.99,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/ed67e5c325c6232e88b8a917fae8c7e9.jpg_200x200q80.jpg_.webp",
+        "rating": 4.9,
+        "stock": 20
+      },
+      {
+        "id": 23,
+        "name": "Bluetooth Speaker",
+        "category": "Electronics",
+        "description": "Portable Bluetooth speaker with rich sound and long battery life.",
+        "price": 55.99,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/0e65bc4ff76f63e0fd296d22c773f688.jpg_200x200q80.jpg_.webp",
+        "rating": 4.8,
+        "stock": 30
+      },
+      {
+        "id": 24,
+        "name": "Smartwatch",
+        "category": "Electronics",
+        "description": "Stylish smartwatch with fitness tracking and heart rate monitoring.",
+        "price": 89.99,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/74180e68c3e0879e745f5179a5c3b9b9.jpg_200x200q80.jpg_.webp",
+        "rating": 4.5,
+        "stock": 50
+      },
+      {
+        "id": 25,
+        "name": "Tablet",
+        "category": "Electronics",
+        "description": "10-inch tablet with full HD display and 32GB storage.",
+        "price": 150.00,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/dcb87a39ae2b4b1e8282d19c8daedb65.jpg_200x200q80.jpg_.webp",
+        "rating": 4.4,
+        "stock": 40
+      },
+      {
+        "id": 26,
+        "name": "Eye Shadow",
+        "category":  "Health & Beauty",
+        "description": "Fast boiling electric kettle with automatic shut-off feature.",
+        "price": 25.00,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/4aaf0a9c8c8b3b40957c0b675b283512.jpg_200x200q80.jpg_.webp",
+        "rating": 4.7,
+        "stock": 20
+      },
+      {
+        "id": 27,
+        "name": "Make up fixer",
+        "category": "Health & Beauty",
+        "description": "Compact microwave oven with multiple cooking settings.",
+        "price": 90.00,
+        "image": "https://img.drz.lazcdn.com/g/kf/S99e64bfe0eb140588b6384542edce7c9C.jpg_200x200q80.jpg_.webp",
+        "rating": 4.5,
+        "stock": 30
+      },
+      {
+        "id": 28,
+        "name": "Eyelash Curler",
+        "category": "Health & Beauty",
+        "description": "Multi-function blender for smoothies, soups, and more.",
+        "price": 35.00,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/010214346451e9aee511d05e4581e9bc.jpg_200x200q75.jpg_.webp",
+        "rating": 4.8,
+        "stock": 25
+      },
+      {
+        "id": 29,
+        "name": "Big Foundation Sponge",
+        "category": "Health & Beauty",
+        "description": "Single-serve coffee maker with a built-in grinder.",
+        "price": 45.00,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/478930663a5ae4d3c2dc3c356d9d7793.jpg_200x200q75.jpg_.webp",
+        "rating": 4.6,
+        "stock": 40
+      },
+      {
+        "id": 30,
+        "name": "Head Phone",
+        "category": "head Phones",
+        "description": "Adjustable electric fan with three-speed settings.",
+        "price": 30.00,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/559b5916faa20c86010492ed06acebe6.jpg_400x400q80.jpg",
+        "rating": 4.7,
+        "stock": 50
+      },
+      {
+        "id": 31,
+        "name": "Earpods",
+        "category": "earpods",
+        "description": "Portable air purifier with HEPA filtration for clean air.",
+        "price": 120.00,
+        "image": "https://img.drz.lazcdn.com/static/pk/p/1f153495fd8a788de6b528a5ae768370.jpg_400x400q80.jpg",
+        "rating": 4.9,
+        "stock": 20
+      },{
+        "id":32,"category":"earpods","name":"Earpods","description": "Portable air purifier with HEPA filtration for clean air.","image":"https://img.drz.lazcdn.com/static/pk/p/c9ac91adf74db1cd3b05d00b79d74e79.jpg_200x200q80.jpg_.webp"
+      },{"id":33,"category":"earpods","name":"Earpods","description": "Portable air purifier with HEPA filtration for clean air.","image":"https://img.drz.lazcdn.com/g/kf/S476c5377f4914373bea5ee2f04787f1fG.jpg_200x200q80.jpg_.webp"}
+   ,{"id":34,"name":"Wireless Bluetooth Handfree","category":"earpods","description": "Portable air purifier with HEPA filtration for clean air.","image":"https://img.drz.lazcdn.com/static/pk/p/a99f7f99fe08aa77d71cf663dde91d0c.jpg_200x200q80.jpg_.webp"} 
+   ,{"id":35,"name":"Earpods","category":"earpods","description": "Portable air purifier with HEPA filtration for clean air.","image":"https://img.drz.lazcdn.com/static/pk/p/2501ca094c554676b75099dd0d3d0fbc.jpg_200x200q80.jpg_.webp"},
+{"id": 36,
+        "name": "Head Phone",
+        "category": "head Phones",
+        "description": "Adjustable electric fan with three-speed settings.",
+        "price": 30.00,
+        "image": "https://img.drz.lazcdn.com/g/kf/Sac9eaf01319d4ac788b8813aed136128c.jpg_200x200q80.jpg_.webp",
+        "rating": 4.7,
+        "stock": 50
+      },
+    {"id": 37,
+    "name": "Head Phone",
+    "category": "head Phones",
+    "description": "Adjustable electric fan with three-speed settings.",
+    "price": 30.00,
+    "image": "https://img.drz.lazcdn.com/static/pk/p/99c0779e500e0c8e9b1b32b0dbf41174.jpg_200x200q80.jpg_.webp",
+    "rating": 4.7,
+    "stock": 50
+  }, {"id": 38,
+  "name": "Head Phone",
+  "category": "head Phones",
+  "description": "Adjustable electric fan with three-speed settings.",
+  "price": 30.00,
+  "image": "https://img.drz.lazcdn.com/static/pk/p/ec422e48a06a259cb9772b6e8a578723.jpg_200x200q80.jpg_.webp",
+  "rating": 4.7,
+  "stock": 50
+},{"id": 39,
+"name": "Head Phone",
+"category": "head Phones",
+"description": "Adjustable electric fan with three-speed settings.",
+"price": 30.00,
+"image": "https://img.drz.lazcdn.com/static/pk/p/e3278efe8f1927445a54a9cbf4fd444c.jpg_200x200q75.jpg_.webp",
+"rating": 4.7,
+"stock": 50
+},
+    {
+      "id": 40,
+      "category": "Phone Accessories",
+      "name": "Adjustable Phone Holder",
+      "image": "https://img.drz.lazcdn.com/static/pk/p/b3afcc8034cbc4b39251dc8cfe15d3af.jpg_200x200q80.jpg_.webp",
+      "description": "Plastic Mobile Phone Stand Adjustable Desktop Phone Holder Dock"
+   , "price": 70.00
+    },
+    {
+      "id": 41,
+      "category": "Toys & Learning",
+      "name": "ABC Puzzle Board",
+      "image": "https://img.drz.lazcdn.com/static/pk/p/826728af26dfedd8adfe146e92c36a0f.jpg_200x200q80.jpg_.webp",
+      "description": "Wooden and Acrylic ABCD Educational Toy"
+      , "price": 30.00
+    },
+    {
+      "id": 42,
+      "category": "Clothing",
+      "name": "Men's Jogging Suit",
+      "image": "https://img.drz.lazcdn.com/static/pk/p/0fb1ebfb51aad4a685e52f8249138d55.jpg_200x200q80.jpg_.webp",
+      "description": "Athletic Tracksuit for Men"
+      , "price": 50.00
+    },
+    {
+      "id": 43,
+      "category": "Clothing",
+      "name": "Velvet Cashmere Socks",
+      "image": "https://img.drz.lazcdn.com/static/pk/p/cec19c53fb12a030739727270771d086.jpg_200x200q80.jpg_.webp",
+      "description": "Warm Winter Socks"
+      , "price": 100.00
+    },
+    {
+      "id": 44,
+      "category": "Footwear",
+      "name": "Glitter Sneakers",
+      "image": "https://img.drz.lazcdn.com/static/pk/p/4d7a41606451841110617e1be9dad88c.jpg_200x200q80.jpg_.webp",
+      "description": "Fashionable Glitter Sneakers for Women"
+      , "price": 80.00
+    },
+    {
+      "id": 45,
+      "category": "Accessories",
+      "name": "Stylish Hand Bag",
+      "image": "https://img.drz.lazcdn.com/static/pk/p/98313ca94eecefe829f7b45280798542.jpg_200x200q80.jpg_.webp",
+      "description": "Premium Hand Bag for Girls"
+      , "price": 120.00
+    },
+    {
+      "id": 46,
+      "category": "Watches",
+      "name": "Leather Quartz Watch",
+      "image": "https://img.drz.lazcdn.com/static/pk/p/b1c42ce2d29b12054fcf0d481e92976f.jpg_200x200q80.jpg_.webp",
+      "description": "Luxury Backlight Wristwatch for Women"
+      , "price": 30.00
+    },
+    {
+      "id": 47,
+      "category": "Accessories",
+      "name": "Hand Bag with Strap",
+      "image": "https://img.drz.lazcdn.com/g/kf/S5963ec1263184783a3a407b0e34033f8a.jpg_200x200q80.jpg_.webp",
+      "description": "Hand Bag with Long Strap"
+      , "price": 60.00
+    },
+    {
+      "id": 48,
+      "category": "Beauty",
+      "name": "Medora Lipstick",
+      "image": "https://img.drz.lazcdn.com/static/pk/p/b722729c928115dc60bb683e684b8c8e.jpg_200x200q80.jpg_.webp",
+      "description": "Lipstick in Coffee Color"
+      , "price": 40.00
+    },
+    {
+      "id": 49,
+      "category": "Hair Care",
+      "name": "Meclay Shampoo",
+      "image": "https://img.drz.lazcdn.com/static/pk/p/b7b62d3eebf4d99b0cca28c1fe91c32f.jpg_200x200q80.jpg_.webp",
+      "description": "Thick & Dense Shampoo 660ML"
+      , "price": 140.00
+    }
+  
+  ]
+  

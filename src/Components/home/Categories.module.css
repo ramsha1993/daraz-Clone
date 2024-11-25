@@ -1,0 +1,19 @@
+.categories{
+    height: 950px;
+}
+.categories h1{
+    height: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #424242;
+}
+.para2{
+    display: -webkit-box;              /* Creates a flexible box layout */
+   -webkit-line-clamp: 1;          /* Limits the text to 2 lines */
+    -webkit-box-orient: vertical;      /* Ensures the text is arranged vertically */
+    overflow: hidden;                  /* Hides the text that overflows the box */
+    text-overflow: ellipsis;           /* Adds the "..." at the end of the truncated text */
+}
+.just{
+    padding: 30px;
+}

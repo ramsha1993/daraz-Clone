@@ -1,0 +1,228 @@
+.both{
+    /* background-color:black ; */
+    display: flex;
+    width: 100%;
+justify-content: center;
+align-items: center;
+margin: 0px auto;
+gap: 10px;
+position: relative;
+ }
+.banner{
+/* background-color:red; */
+display: flex !important;
+height: 344px ;
+width: 988px;
+
+}
+
+.banner img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.sidebanner{
+/* background-color: cadetblue; */
+
+height: 344px;
+width: 194px;
+}
+.module{
+    display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: center;
+}
+.small{
+    height: 42px;
+    width: 42px;}
+.small img{
+    /* height: 100%;
+    width: 100%; */
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.icons{
+    display: none;
+}
+.module span{
+    font-size: 14px;
+    font-weight: 700;
+    color: #6c1d00;
+    max-width: 138px;
+}
+
+    /* .slick-next {
+    right: 0px !important;
+}
+.slick-prev {
+    left: 0px !important;
+    z-index: 2!important;
+} */
+.bannerm{   width: 1007px;
+}
+
+.slick-slider .slick-dots {
+
+    position: absolute !important;
+    bottom: 8px !important;
+    display: block !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+    text-align: center !important;
+  }
+ .score{
+    display: flex;
+    align-items: center;
+padding: 8px 15px;
+ }
+ .star{
+    height: 11px;
+    width: 10px;
+ }
+ .score span{
+    color: white;
+    font-size: 11px;
+ }
+ .download{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 6px;
+    min-height: 30px;
+color: white;
+ }
+ .freeshipping{
+    display: flex;
+align-items: center; 
+justify-content: center;
+color: white;
+gap: 10px;
+font-size: 14px;
+font-weight: 500;
+
+}
+.freeshipping img{
+    height: 34px;
+}
+.freeshipping span{
+    width: 68px;
+}
+.slick-slider  {
+    width: 1024px!important;
+    position: relative!important;
+    display: inline-block!important;
+    box-sizing: border-box!important;
+    -webkit-user-select: none!important;
+    user-select: none!important;
+    -webkit-touch-callout: none!important;
+    -khtml-user-select: none!important;
+    touch-action: pan-y!important;
+    -webkit-tap-highlight-color: transparent!important;
+}
+.voucher{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    gap: 10px;
+}
+.voucher img{
+    height: 34px;
+}
+.voucher span{
+    width: 68px;
+}
+.midban{
+    display: none;
+}
+@media (max-width:1024px){
+    
+    
+.sidebanner{
+    display: none;
+}
+.both{
+    /* width:230px; */
+background-image: url('../../assets/daraz_background.webp');
+background-size: cover;
+background-position: left 0% top 21% ;
+}
+.banner {
+    /* border-radius: 66px; */
+    /* height: 244px ; */
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+
+}
+.banner img{
+   width: 94% !important;
+   border-radius: 26px;
+}
+.both{
+    display: inline-block;
+}
+
+  .slick-next {
+    right: 5px !important;
+    width: 15px !important;
+    height: 15px !important;
+  }
+  
+  .slick-prev{
+    left:0px !important;
+    z-index: 2 !important;
+  }
+  .icons{
+    display: grid;
+  }
+  .midban{
+    display: flex;
+    flex-direction: column;
+margin-bottom: 20px; 
+}
+  .midimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+@media (max-width:490px){
+.bannerm{
+    width: 406px;
+    margin-bottom: 22px;
+}
+.icons{
+    display: grid;
+}
+.midimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner{
+    width: 350px;
+    height: 134px;
+
+}
+
+.banner img{
+    width: 100%;
+    border-radius:15px ;
+}
+.slick-next {
+
+display: none!important;}
+  
+  .slick-prev{
+ display: none!important;
+  }
+}

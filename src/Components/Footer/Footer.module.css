@@ -1,0 +1,57 @@
+
+
+
+.custom h1{
+margin-bottom: 15px;
+color: #0f136d;
+font-size: 16px;
+}
+.Darazz h1{
+    margin-bottom: 15px;
+    color: #0f136d;
+    font-size: 16px;
+}
+.payment h1{
+    font-weight: 550;
+    font-size: 17px;
+    margin-bottom: 25px;
+    color: #183544;
+}
+.verify h1{ 
+    color: #183544;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+.first h1{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+/* .first {
+    padding-right: 25%;
+} */
+/* .second {
+    padding-right: 25%;
+}
+.third {
+    padding-right: 25%;
+}
+fouth{
+        padding-right: 25%;
+} */
+.third a{
+    display: inline-block;
+    color: #606060;
+}
+.third h1{
+font-size: 16px;
+font-weight: 500;
+}
+.third h4{
+    font-weight: 600;
+}
+.fouth h4{
+    font-weight: 600;
+}
+.fouth a{
+    color:#606060;
+}

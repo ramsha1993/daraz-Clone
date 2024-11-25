@@ -1,0 +1,51 @@
+.products h1{
+    font-size: 22px;
+    font-weight: 500;
+    color: #424242;
+}
+.products .para{
+    padding: 10px 10px;
+    color: #f57224;
+    font-weight: 600;
+}
+.flashsale{
+    display: none;
+}
+
+.para2{
+        display: -webkit-box;              /* Creates a flexible box layout */
+       -webkit-line-clamp: 2;          /* Limits the text to 2 lines */
+        -webkit-box-orient: vertical;      /* Ensures the text is arranged vertically */
+        overflow: hidden;                  /* Hides the text that overflows the box */
+        text-overflow: ellipsis;           /* Adds the "..." at the end of the truncated text */
+    }
+    .just{
+        height:100px;
+         width:180px;
+    }
+    @media(max-width:1024px){
+        .flashsale{
+            display: flex;
+        }
+        .products h1{
+            display: none;
+        }
+        .para{
+            display: none;
+        }
+    }
+    @media (max-width:490px){
+
+
+        .flashsale{
+          
+            display: flex;
+
+              
+        }
+        .just{
+            height:100px;
+             width:122px;
+        }
+        
+    }

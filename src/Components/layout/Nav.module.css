@@ -1,0 +1,171 @@
+.nav{
+    padding: 0px 20px;
+    /* height: 16vh; */
+    background-color: #d6520b;
+
+ 
+}
+.menu{font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: right;
+    height: 25px;
+    color: white; 
+}
+ .menu h4 a {
+    color: white; 
+ }
+ .navmain{
+ 
+        display: flex;
+        align-items: start;
+        /* justify-content: center; */
+        gap: 50px;
+        height: 90px;
+        margin-top: 20px;
+
+ }
+ .inca{
+
+        display: flex;
+        align-items: center;
+        gap: 30px;
+   
+ }
+ .log{
+
+        height: 39px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+ }
+ .log img{width: 64%;
+    height: 100%;
+}
+ .input input{
+    border-radius: 4px;
+width: 638px; 
+padding: 12px 20px;
+}
+input:focus{
+    outline: none;
+}
+.downloaddaraz{
+    display: none;
+}
+.background{
+    display: none;
+}
+@media (max-width:1024px){
+  .downloaddaraz{
+    display: flex;
+    width:100%;
+  }
+    .inca{
+background-image: url();
+    }
+  
+  .nav{
+  padding:0px 0px;
+  background-color: white;
+    } 
+    .navmain{
+        margin-top: 0px;
+        background-image:url('../../assets/daraz_background.webp') ;
+background-size: cover;
+background-position: left 0% top 15%;
+    } .menu{
+    display: none;
+  }
+  .inca{
+    display: none;
+  }
+  .background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+height: 17vh;  
+}
+  .background input{
+    padding:10px 10px;
+    font-size: 30px;
+    font-weight: 500;
+    /* padding-right: 250px; */
+width: 60.8vw;
+    border-radius: 38px;
+}
+.allbox{
+    display: flex;
+    align-items: center;justify-content: space-between;
+ background-color:white ;
+height: 8.8vw;
+ /* width: 100%; */
+ border-radius: 88px;
+padding-right: 10px;
+padding-left: 10px;
+}
+.allbox span{
+    height: 5.6vw;
+    width: 5.6vw;
+
+}
+.allbox button{
+
+    padding: 32px 32px;
+    font-size: 41px;
+    border-radius: 52px;
+    background-color: #d6520b;}
+.inputtwo{
+    display: flex;
+    align-items: center;
+}
+
+.log{
+    display: none;
+}
+.cart{
+    display: none;
+}
+
+}
+@media (max-width:490px) {
+.navmain{
+    display: none;
+}    
+.allbox{
+display: flex;
+align-items: center;
+background-color: white;
+/* justify-content: flex-end; */
+        height: 8.8vw;
+        /* width: 100%; */
+        border-radius: 88px;
+        padding-right: 2px;
+        padding-left: 10px;
+    }
+    .background{
+        height: 8vh;  
+    }
+.inputtwo input {
+        padding: 7px 6px;
+        font-size: 12px;
+        font-weight: 500;
+        /* padding-right: 250px; */
+        width: 49.8vw;
+        border-radius: 38px;
+    }
+    .inputtwo button {
+        padding: 3px 16px;
+        display: flex;
+
+        align-items: center;
+        font-size: 13px;
+        height: 29px;
+        justify-content: flex-end;
+        border-radius: 52px;
+
+    }
+}

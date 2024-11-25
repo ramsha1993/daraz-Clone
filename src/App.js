@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import { div } from 'framer-motion/client';
 import './App.css';
-
+import Nav from './Components/layout/Nav';
+import { ChakraProvider } from '@chakra-ui/react';
+import Banner from './Components/home/Banner';
+import Home from './Components/home/Home';
+import '@fontsource/roboto'; // Defaults to weight 400
+import Products from './Components/home/Products';
+import Categories from './Components/home/Categories';
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+  <div className='app'>
+<Nav />
+<Home />
+<Products />
+<Categories />
+<Footer />
+  </div>
+
+  
+  )
+  
+  
+  ;
 }
 
 export default App;
