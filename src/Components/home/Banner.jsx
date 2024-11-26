@@ -106,29 +106,29 @@ const content={
 
     </div>
     
-    <Box className={classes.icons} marginBottom='45px'>
+    <Box className={classes.icons} marginBottom='45px' >
       <Grid templateColumns="repeat(4 ,1fr)" padding='0px 30px' fontSize='13px' gap='27px' >
         <GridItem width='16.4vw'>
 
-   <Box><Image src={mob6} height='12vw' width='12vw' /></Box><Span fontSize='2.6vw'>Earn Coins</Span>         
+   <Box><Image src={mob6} height='12vw' width='12vw' /></Box><Span fontSize='2.6vw' color='#111'>Earn Coins</Span>         
    </GridItem>
          <GridItem width='16.4vw'>
 
     <Box>
-      <Image src={mob2} height='12vw' width='12vw' /></Box><Box><Span fontSize='2.6vw'>Buy Any3</Span></Box>
+      <Image src={mob2} height='12vw' width='12vw' /></Box><Box><Span color='#111' fontSize='2.6vw'>Buy Any3</Span></Box>
       </GridItem>
 
 <GridItem width='16.4vw'>
-  <Box><Image src={mob3} height='12vw' width='12vw' /></Box><Span fontSize='2.6vw'>Free Delivery</Span>
+  <Box><Image src={mob3} height='12vw' width='12vw' /></Box><Span color='#111' fontSize='2.6vw'>Free Delivery</Span>
   </GridItem>
 <GridItem width='16.4vw'>
-  <Box><Image src={mob4} height='12vw' width='12vw' /></Box><Span fontSize='2.6vw'>Buy More save More</Span>
+  <Box><Image src={mob4} height='12vw' width='12vw' /></Box><Span color='#111' fontSize='2.6vw'>Buy More save More</Span>
   </GridItem>
   <GridItem width='16.4vw'>
-<Box><Image src={mob5} height='12vw' width='12vw' /></Box><Span fontSize='2.6vw'>New Arrivals</Span>
+<Box><Image src={mob5} height='12vw' width='12vw' /></Box><Span color='#111' fontSize='2.6vw'>New Arrivals</Span>
 </GridItem>
 <GridItem width='16.4vw'>
-<Box><Image src={mob1} height='12vw' width='12vw' /></Box><Span fontSize='2.6vw'>Games & Fun</Span>
+<Box><Image src={mob1} height='12vw' width='12vw' /></Box><Span color='#111' fontSize='2.6vw'>Games & Fun</Span>
 </GridItem>
           </Grid>
    

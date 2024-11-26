@@ -17,3 +17,51 @@
 .just{
     padding: 30px;
 }
+.cateimg{
+    height: 80px ;
+    width: 80px;
+margin-bottom: 15px;
+}.cateimg img{
+    height: 100%;
+    width: 100%;
+}
+.categoriesbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.categoriestwo{display: none;}
+@media (max-width:550px) {
+    .categories h1{
+      color:  #111;
+
+font-size: 4.2vw;
+font-weight: 700;
+    }
+    .categoriesone{
+        overflow-x: auto;
+        grid-template-rows: 170px;
+        overflow-y: hidden;
+    }
+    
+    .categories{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 8px 20px;}
+    .cateimg{
+         height: 26vw;
+         width: 20vw;
+    }
+ .cateimg img{
+    width: 100%;
+    height: 100%;
+ }
+ .justhead h1{
+    display: none;
+ }
+
+    /* .categoriestwo{display: block;} */
+}
