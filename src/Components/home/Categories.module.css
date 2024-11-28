@@ -39,6 +39,9 @@ margin-bottom: 15px;
 .categoriesbox{
     margin-top:22px; padding:25px;}
 
+    .resjust{
+        display: none;
+    }
 @media (max-width:550px) {
     .hotdealsbox{
         overflow-x: scroll;
