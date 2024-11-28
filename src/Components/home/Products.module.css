@@ -66,15 +66,15 @@ grid-template-rows: 260px;
         }
         .just{
             height:100px;
-             width:94px;
+             width:120px;
              position: relative;
         }
         .grid{
             grid-template-columns:95px 95px 95px;
-            grid-template-rows: 129px 149px;
-            gap: 25px;
+            grid-template-rows: 129px 182px;
+            gap: 33px;
             align-items: center;
-            justify-content: center;
+            /* justify-content: center; */
             
                 }
                 .resparagraph{

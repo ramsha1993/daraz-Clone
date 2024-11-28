@@ -36,7 +36,7 @@ width='auto'/>
 <p>SAVE</p>
 <Span>78%</Span>
 </Box>
-<Image src={elem.image} />
+<Image src={elem.image} borderRadius='6px' />
  <Box className={classes.paragraph}> <Text fontSize='17px' fontWeight='500' className={classes.para2}>{elem.description}</Text>
 <Flex color='#d6520b'> <Span  fontSize='22px'>Rs.</Span><Span fontSize='22px'>{elem.price}</Span></Flex>
 <Flex ><Box textDecoration='line-through'  fontSize='12px' font-weight='500' color='gray'><Span>Rs.</Span> <Span>{elem.price*2}</Span></Box><Span fontSize='13px' font-weight='500' >-77%</Span></Flex>
