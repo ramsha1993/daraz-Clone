@@ -21,7 +21,7 @@ import Footerend from './Footerend'
 const Footer = () => {
   return (
     <Box>
-   <Flex gap='90px' padding='54px'>
+   <Flex className={classes.footermain}>
     <Box className={classes.custom}><h1 >Customer Care</h1>
     <List.Root  listStyle="none" fontSize='13px' >
   <List.Item ><Link color='#0f136d'> Help Center</Link></List.Item>
@@ -54,15 +54,15 @@ Purchase Protection</Link>
     <List.Item><Link color='#0f136d'> Daraz University</Link></List.Item>
     <List.Item><Link color='#0f136d'> Sell on Daraz</Link></List.Item><List.Item><Link color='#0f136d'>Join Daraz Affiliate Program</Link></List.Item></List.Root></Box>
    <Flex gap='20px'><Box><Image height='42px' width='42px' src='https://img.lazcdn.com/us/domino/e07f9602-da7e-4d31-9c4f-df69a2e95325_PK-60-60.png' /></Box>
-   <Box     width= '131px'>
-   <Text fontSize='16px' fontWeight='500'
-   color='#d6520b'>Happy Shopping</Text>
-   <Text fontSize='14px' color='#0f136d'>Download App</Text></Box></Flex>
-   <Box><Flex gap='10px' ><Box marginBottom='10px'> <Image src={appstore} /></Box>
+   <Box   className={classes.happy
+    }  >
+   <Text>Happy Shopping</Text>
+   <Text >Download App</Text></Box></Flex>
+   <Box className={classes.darazapps}><Flex gap='10px' ><Box marginBottom='10px'> <Image src={appstore} /></Box>
    <Box><Image src={googleplay} /></Box></Flex>
    <Image src={appgallery} /></Box></Flex>
-   <Box padding='50px'>
-    <Flex gap='60px'>
+   <Box className={classes.darazpaymentbox}>
+    <Flex gap='60px' className={classes.darazpayment}>
     
     <Box className={classes.payment}>
 
@@ -70,7 +70,7 @@ Purchase Protection</Link>
 <Flex marginBottom='10px'><Span><Image height='28px'width='100%' src={cashon} /></Span><Span><Image height='28px'width='100%' src={visa} /></Span><Span><Image height='28px'width='100%' src={master} /></Span><Span><Image  height='28px'width='100%' src={easy} /></Span><Span><Image  height='28px'width='100%' src={darazwall} /></Span><Span><Image height='28px'width='100%' src={jazz} /></Span></Flex>
 <Flex><Span><Image  height='28px'width='100%' src={union} /></Span><Span><Image  height='28px'width='100%'src={hbl} /></Span><Span><Image height='28px' width='100%' src={easymonth} /></Span></Flex>
 </Box><Box className={classes.verify}><h1>Verified by</h1><Box><Image src={Pci} /></Box></Box></Flex></Box>
-<Flex padding='10px 29px' fontSize='13px' gap='80px' color='#606060'>
+<Box className={classes.darazdescription}>
   <Box className={classes.first} width='25%'>
    <Box> <h1>How Daraz Transformed Online Shopping in Pakistan</h1><Text marginBottom='10px'>How Daraz Transformed Online Shopping in Pakistan</Text></Box>
    <Box marginBottom='10px'><Text>Daraz first made waves in Pakistan’s e-commerce market after its introduction in 2012. We have since grown to become Pakistan’s largest platform for online shopping with a network spread across Asia in Pakistan, Bangladesh, Sri Lanka, Myanmar, and Daraz.com.np. Our vision was to provide a safe, efficient online marketplace platform for vendors and customers across the country to come together. We started off exclusively as an online fashion retail platform and over the years expanded to become a complete one-stop solution for all your buying needs. Daraz prides itself on not being just another ecommerce venture in Asia. We work tirelessly to make sure that we provide users with the best online online shopping experience and value for their purchases. Whether you shop online through our website or our online shopping mobile App, you can expect easy navigation, customized recommendations, and a smooth online shopping experience guaranteed.</Text></Box><Box><h1>What Makes Us Different from Other Online Shopping Platforms?</h1><b>Select from the Largest Online Marketplace in Pakistan</b><Text>With over 15 million products to select from, Daraz offers its customers the most comprehensive listing of products in the country. Whether you’re looking for electronics, apparel, appliances, or groceries – there is something for everyone.</Text></Box><Box><b>Hassle Free Delivery</b><Text>Online shopping is only as good as its execution and Daraz promises hassle free delivery right from the moment you order to when your package is dropped at your door. We cater to both major and smaller cities alike, and give you the choice to track your package as it makes its way to you so you always know your order status. If you are unsatisfied with any aspect of your order, we have a simple 7-day return or exchange policy.</Text>
@@ -340,7 +340,7 @@ Tecno Spark 6</Link>,<Link> Vivo V20 </Link>,
 ,<Link>CAC 1000</Link>
 ,<Link>Panadol Migraine</Link>
 </Box>
-  </Box></Flex>
+  </Box></Box>
 <Footerend />
 </Box>
   )

@@ -38,6 +38,9 @@ font-size: 16px;
 fouth{
         padding-right: 25%;
 } */
+ .footermain{
+    gap:90px; padding:54px;
+ }
 .third a{
     display: inline-block;
     color: #606060;
@@ -54,4 +57,70 @@ font-weight: 500;
 }
 .fouth a{
     color:#606060;
+}
+.happy{
+    width:131px;
+}
+.happy p{
+    font-size:16px; font-weight:500;
+    color:#d6520b;
+}
+.darazdescription{
+    display: flex;
+    
+padding:10px 29px; font-size:13px; gap:80px; color:#606060;
+}
+.darazapps{
+    display: flex;
+    flex-direction: column;
+}
+.darazpaymentbox{
+    padding: 50px;
+}
+
+@media(max-width:550px){
+    .custom h1{
+        font-size: 16px;
+        }
+        .custom a{
+            font-size: 12px;
+            line-height: 35px;
+        }
+        
+.Darazz h1{
+    font-size: 16px;
+}
+.Darazz a{
+    font-size: 12px;            line-height: 35px;
+
+}
+.footermain{
+    padding: 10px 15px;
+    gap: 5px;
+    flex-direction: column;
+}
+.happy{
+    width:90px;
+}
+.happy :nth-child(1){
+    font-size:12px; font-weight:500;
+    color:#d6520b;
+}
+.happy :nth-child(2){
+    font-size:12px; font-weight:500;
+    color:#0f136d;
+}
+
+.darazdescription{
+    display: none;
+}
+.darazpayment{
+    display: none;
+}
+.darazapps{
+    display: none;
+}
+.darazpaymentbox{
+    padding: 10px;
+}
 }
