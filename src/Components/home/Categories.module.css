@@ -127,6 +127,7 @@ white-space: nowrap;
     display: none;
 }
 .resjust{
+    display: flex;
     padding: 9px 15px;
 }
 .fridayimg{
