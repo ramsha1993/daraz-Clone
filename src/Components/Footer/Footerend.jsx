@@ -14,7 +14,7 @@ import classes from './Footerend.module.css'
 
 const Footerend = () => {
   return (
-<Flex gap='139px' className={classes.h}>
+<Flex className={classes.h}>
 <Box ><h4>Daraz International</h4>
 <Flex gap='30px' fontSize='14px' className={classes.darazcountries}>
 <Flex className={classes.count} gap='10px'><Image height='28px' width='28px' src={pakistan} /><Link >Pakistan</Link></Flex>

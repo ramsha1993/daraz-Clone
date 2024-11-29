@@ -59,8 +59,8 @@ Purchase Protection</Link>
    <Text>Happy Shopping</Text>
    <Text >Download App</Text></Box></Flex>
    <Box className={classes.darazapps}><Flex gap='10px' ><Box marginBottom='10px'> <Image src={appstore} /></Box>
-   <Box><Image src={googleplay} /></Box></Flex>
-   <Image src={appgallery} /></Box></Flex>
+   <Box><Image  src={googleplay} /></Box></Flex>
+   <Image width='126px' src={appgallery} /></Box></Flex>
    <Box className={classes.darazpaymentbox}>
     <Flex gap='60px' className={classes.darazpayment}>
     
