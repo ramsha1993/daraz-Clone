@@ -70,11 +70,11 @@ grid-template-rows: 260px;
              position: relative;
         }
         .grid{
-            grid-template-columns:95px 95px 95px;
+            grid-template-columns:85px 85px 85px;
             grid-template-rows: 129px 182px;
-            gap: 50px;
+            gap: 30px;
             align-items: center;
-            padding: 0px 7px;
+            padding: 0px 1px;
             /* justify-content: center; */
             
                 }
