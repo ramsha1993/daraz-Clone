@@ -190,7 +190,7 @@ background-position: left 0% top 21% ;
     z-index: 2 !important;
   }
   .icons{
-    display: grid;
+    display: block;
     margin-bottom: 10px;
   }
   .midban{
@@ -211,7 +211,9 @@ width: 100%;
     margin-bottom: 22px;
 }
 .icons{
-    display: grid;
+    display:block;
+
+
     margin-bottom: 10px;
 }
 .midimg{

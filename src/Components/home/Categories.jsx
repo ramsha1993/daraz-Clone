@@ -72,9 +72,9 @@ const data=[{id:1,image:'https://img.drz.lazcdn.com/static/pk/p/989928971444ffe6
 </Box>
 <Box className={classes.resjust}>
 <Grid  templateColumns="repeat(2, 1fr)" templateRows="300px 300px
-300px 300px 300px " gap='33px' padding='10px 8px'>
+300px 300px 300px " gap='36px' padding='10px 8px'>
     {prod.filter((elem)=>(elem.id>39)).map((elem,index)=>
-       <GridItem key={index}  width='161px'>
+       <GridItem key={index}  width='168px'>
        <Box height='180px'><Image borderRadius='9px' src={elem.image} height='100%'/></Box>
         <Box marginTop='7px'><Flex><Flex className={classes.fridayimg}><Image src={bigfriday} width='auto' height='auto' maxHeight="100%" maxWidth='100%' /></Flex><Text fontSize='14px' fontWeight='500' className={classes.para2}>{elem.description}</Text></Flex>
        <Flex color='#fe4960' alignItems='center'> <Span  fontSize='11px'>Rs.</Span><Span fontSize='22px' paddingBottom='4px'>{elem.price}</Span></Flex>
