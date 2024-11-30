@@ -191,6 +191,7 @@ background-position: left 0% top 21% ;
   }
   .icons{
     display: grid;
+    margin-bottom: 10px;
   }
   .midban{
     display: flex;
@@ -211,6 +212,7 @@ width: 100%;
 }
 .icons{
     display: grid;
+    margin-bottom: 10px;
 }
 .midimg{
     display: flex;
