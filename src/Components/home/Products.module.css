@@ -72,9 +72,9 @@ grid-template-rows: 260px;
         .grid{
             grid-template-columns:85px 85px 85px;
             grid-template-rows: 129px 182px;
-            gap: 37px;
+            gap: 34px;
             align-items: center;
-            padding: 0px 6px;
+            padding: 0px 0px;
             /* justify-content: center; */
             
                 }
