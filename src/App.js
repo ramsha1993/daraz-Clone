@@ -8,15 +8,31 @@ import '@fontsource/roboto'; // Defaults to weight 400
 import Products from './Components/home/Products';
 import Categories from './Components/home/Categories';
 import Footer from './Components/Footer/Footer';
+import Bottomnav from './Components/Footer/Bottomnav';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Sproduct from './Components/Product/Sproduct';
+import '@fontsource/roboto'; // Import all weights
+import { Provider } from 'react-redux';
+import store from './store/store';
 function App() {
   return (
-
-  <div className='app'>
+    <div className='app'>
+<Provider store={store}>
+<Router>
 <Nav />
-<Home />
+
+<Routes>
+  
+<Route path='/' element={<><Home />
 <Products />
 <Categories />
+
+<Bottomnav /> </>} />
+  <Route path='/product' element={<Sproduct/>}/>
+</Routes>
 <Footer />
+  </Router>
+</Provider>
   </div>
 
   

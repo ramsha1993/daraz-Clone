@@ -32,6 +32,7 @@ width='auto'/>
 
 
     <GridItem key={index} className={classes.just}>
+<Box className={classes.size}>
 <Box className={classes.imagee}>
 <p>SAVE</p>
 <Span>78%</Span>
@@ -43,13 +44,14 @@ width='auto'/>
 </Box>
 <Box className={classes.resparagraph}>
 <Flex fontWeight='700' alignItems='end' color='#fe4960'> <Span  fontSize='3vw' fontWeight='700'>Rs.</Span><Span fontSize='4vw' fontWeight='700'>{elem.price}</Span></Flex>
-<Box textDecoration='line-through'  fontSize='12px' font-weight='500' color='gray'><Span>Rs.</Span> <Span>{elem.price*2}</Span></Box>
+<Box className={classes.linethrough}><Span>Rs.</Span> <Span>{elem.price*2}</Span></Box>
 <Flex className={classes.sub}>
-  <Box className={classes.fire} background={`url(${fire})`} backgroundPosition='50%' backgroundSize='contain' height='5.7vw' width='5.7vw' backgroundRepeat='no-repeat'></Box>
+  <Box className={classes.fire} background={`url(${fire})`} backgroundPosition='50%' backgroundSize='contain'  backgroundRepeat='no-repeat'></Box>
 <Flex className={classes.sp}>
 <Span>{elem.id*1}</Span><Span>Stock left</Span></Flex>
 </Flex>
 
+</Box>
 </Box>
 </GridItem>
 

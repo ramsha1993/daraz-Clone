@@ -107,7 +107,7 @@ const content={
     </div>
     
     <Box  className={classes.icons}  marginBottom='45px' >
-      <Grid templateColumns="repeat(4 ,1fr)" padding='0px 30px' fontSize='13px' gap='27px' >
+      <Grid className={classes.icongrid}  templateColumns="repeat(4 ,1fr)"fontSize='13px' gap='27px' >
         <GridItem width='16.4vw'>
 
    <Box><Image src={mob6} height='12vw' width='12vw' /></Box><Span fontSize='2.6vw' color='#111'>Earn Coins</Span>         

@@ -115,7 +115,8 @@ padding:10px 29px; font-size:13px; gap:80px; color:#606060;
     display: none;
 }
 .darazpayment{
-    display: none;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .darazapps{
     display: none;

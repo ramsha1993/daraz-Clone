@@ -149,7 +149,9 @@ font-weight: 500;
 .midban{
     display: none;
 }
-@media (max-width:1024px){
+.icongrid{
+    margin-top: 0px;}
+@media (max-width:1050px){
     
     .bannerm{
         width: 100%;
@@ -162,6 +164,10 @@ font-weight: 500;
 background-image: url('../../assets/daraz_background.webp');
 background-size: cover;
 background-position: left 0% top 21% ;
+}
+.icongrid{
+    margin-top: 40px;
+    padding: 0px 66px;
 }
 .banner {
     /* border-radius: 66px; */
@@ -209,6 +215,9 @@ margin-bottom: 20px;
 width: 100%;
 
     margin-bottom: 22px;
+}
+.icongrid{
+    padding:0px 30px; 
 }
 .icons{
     display:block;

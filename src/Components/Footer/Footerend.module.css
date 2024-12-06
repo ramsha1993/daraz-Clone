@@ -8,6 +8,7 @@
 .h{
     padding: 45px 30px;
     gap:139px;
+
 }
 .darazcountries{
     display: flex;
@@ -16,7 +17,13 @@
 .darazcountries{
     width: 550px;
 }
-
+@media(max-width:1050px){
+    .h{
+        padding: 45px 30px;
+        gap:19px;
+    flex-direction: column;
+    }
+}
 
 
 @media (max-width:550px) {

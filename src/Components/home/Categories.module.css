@@ -21,6 +21,7 @@
     height: 80px ;
     width: 80px;
 margin-bottom: 15px;
+
 }.cateimg img{
     height: 100%;
     width: 100%;
@@ -42,11 +43,187 @@ margin-bottom: 15px;
     .resjust{
         display: none;
     }
+    .categoriesprod img{
+        max-width: none;
+        max-height: none;
+        /* height:0%;
+        width: 0%; */
+        transform: scale(1);
+        transform-origin: top left;
+    }
+@media(max-width:1050px){
+
+    .categoriesprod img{
+        max-width: none;
+        max-height: none;
+        /* height:0%;
+        width: 0%; */
+        transform: scale(1.3);
+        transform-origin: top left;
+    }
+        .hotdealsbox{
+    overflow-x: scroll;
+    height: 25.4vw;
+    padding: 10px 0px;
+    width: 100%;
+}
+.resjustgrid{
+    grid-template-columns: 40vw 40vw;
+grid-template-rows:513px 513px
+513px 513px 513px ; gap:26px; padding:10px 0px; 
+
+align-items: center;
+justify-content: center;
+}
+
+.categoriesprod {
+    height: 38vw;
+    width: 37vw;
+}
+
+
+
+.hotdealsbox::-webkit-scrollbar {
+    display: none;
+  }
+.categories h1{
+  color:  #111;
+
+font-size: 4.2vw;
+font-weight: 700;
+}
+.categoriesone{
+    overflow-x: auto;
+    grid-template-rows: 271px;
+    overflow-y: hidden;
+    gap: 40px;
+}
+
+.categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 8px 20px;} */}
+.cateimg{
+     height: 22vw;
+     width: 20vw;
+     display: flex;
+align-items: center;
+justify-content: center;
+}
+.cateimg img{
+    width: auto;
+    height: auto;
+max-width: 100%;
+max-height: 100%;
+
+}
+.justitems{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+flex-basis: 16.4vw;
+flex-shrink: 0;
+border: none;
+transition: border 0.3 ease;
+}
+.justitems:active{
+border: 1px solid #fe4960;
+border-radius: 16px;
+}
+.justitems p{
+font-size: 14px;
+white-space: nowrap;
+}
+.justhead{
+display: flex;
+}
+.justhead h1{
+display: none;
+}
+
+.hotdeals{
+
+height: 8.8vw;
+width: 8.8vw;
+/* display: flex;
+align-items: center;
+justify-content: center; */
+}
+.hotdeals img{
+width: 100%;
+height: 100%;
+
+}
+.hotdeals p{
+font-size: 10px;
+}
+
+.categoriesbox{
+margin-top:0px; padding:0px;
+white-space: nowrap;
+}
+.just{
+display: none;
+}
+.resjust{
+display: flex;
+padding: 9px 0px;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
+.fridayimg{
+flex-direction: column;
+flex-basis: 9.4vw;
+height: 4.4vw;
+flex-shrink: 0;
+align-items: center;
+/* justify-content: center; */
+}
+.fridayimg img{
+height: auto;
+width: auto;
+max-width: 100%;
+max-height: 100%;
+}
+/* .categoriestwo{display: block;} */
+
+
+}
+
+
+
+
+
 @media (max-width:550px) {
+  .categoriesprod{
+    width: 43vw;
+    height: 40vw;
+  }
+
+
+
+    .categoriesprod img{
+        max-width: none;
+        max-height: none;
+        /* height:0%;
+        width: 0%; */
+        transform: scale(0.8);
+
+        transform-origin: top left;
+    }
+    .resjustgrid{
+        grid-template-columns: 40vw 40vw;
+        grid-template-rows:268px 268px 268px 268px 268px ; gap:26px; padding:10px 0px;
+        }
+        
     .hotdealsbox{
         overflow-x: scroll;
         height: 25.4vw;
-        padding: 10px 9px;
+        padding: 10px 0px;
+        width: 100%;
     }
     .hotdealsbox::-webkit-scrollbar {
         display: none;
@@ -59,7 +236,7 @@ font-weight: 700;
     }
     .categoriesone{
         overflow-x: auto;
-        grid-template-rows: 170px;
+        grid-template-rows: 185px;
         overflow-y: hidden;
         gap: 40px;
     }
@@ -129,6 +306,9 @@ white-space: nowrap;
 .resjust{
     display: flex;
     padding: 9px 0px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 .fridayimg{
     flex-direction: column;
@@ -146,3 +326,13 @@ white-space: nowrap;
 }
 /* .categoriestwo{display: block;} */
 }
+@media (max-width:360px) {
+    .categoriesprod img{
+        max-width: none;
+        max-height: none;
+        
+        /* height:0%;
+        width: 0%;  */
+         transform: scale(0.7);
+        transform-origin: top left;}}
+    

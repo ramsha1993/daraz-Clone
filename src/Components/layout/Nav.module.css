@@ -40,6 +40,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        cursor: pointer;
 
  }
  .log img{width: 64%;
@@ -59,7 +60,7 @@ input:focus{
 .background{
     display: none;
 }
-@media (max-width:1024px){
+@media (max-width:1050px){
   .downloaddaraz{
     display: flex;
     width:100%;
@@ -123,6 +124,18 @@ padding-left: 10px;
     align-items: center;
 }
 
+.inputtwo input {
+        padding: 7px 6px;
+        font-size: 3vw;
+        font-weight: 500;
+        /* padding-right: 250px; */
+        width: 65vw;
+        border-radius: 38px;
+} 
+.inputtwo button{
+    font-size: 3.2vw;
+    padding: 3.4vw 3.4vw;
+}
 .log{
     display: none;
 }

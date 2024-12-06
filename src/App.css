@@ -11,8 +11,23 @@ html,body{
   height: 100%;
 }/* font-family: "Roboto", sans-serif; */
 body{
- font-family:NotoSans-Regular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,PingFang SC,Microsoft YaHei,sans-serif!important;
+font-family: "Roboto";
+ font-weight: 400;
+ font-size: 15px;
+ font-style: normal;
 }
+.roboto-bold {
+  font-weight: 700;
+}
+
+.roboto-light {
+  font-weight: 300;
+}
+
+.roboto-italic {
+  font-style: italic;
+}
+
 /* }'Roboto', */
 /* More specific selectors */
 .slick-slider .slick-dots li button {
