@@ -1,0 +1,95 @@
+.cate{
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+.starcl {
+    align-items: center;
+}
+.starcl a{
+    font-size: 12px;
+
+    color: rgb(58, 151, 222);
+}
+.starcl svg{
+    height: 12px; 
+    color: rgb(239, 200, 4);
+
+}
+.texside{
+    width: calc(100% - 600px);
+}
+.brand a{
+    
+    color: rgb(58, 151, 222);
+}
+.darazsales{
+    background: url('C:\Users\HP\daraz-Clone\src\assets\darazdecember sale.webp');
+height:100px;
+width: 100%;
+background-size: cover;
+background-position: left 0;}
+.add {
+    align-items: center;
+}
+.add svg{
+    width: 25px;
+    height: 25px;
+color: gray;
+}
+.info{
+    justify-content: space-between;
+padding: 10px 20px;
+align-items: center;
+}
+.info svg{
+    color: gray;
+    width: 15px;
+    height: 15px;
+}
+
+.link a{
+    color: rgba(58, 151, 222);
+}
+.deliver {
+  gap: 10px;
+  
+}
+
+.deliver svg {
+    width: 30px;
+    height: 30px;
+    color: gray;
+}
+.exchange {
+    gap: 10px;
+}
+.exchange svg{
+    width: 25px;
+    height: 25px;
+}
+.lastbox p{
+    font-size: 13px;
+}
+.cash svg{
+    width: 20px;
+height: 20px;
+color: gray;
+}
+.note{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+.note::before{
+    position: absolute;
+    top: calc(50%  - 4px);
+    display: block;
+    left: -4px;
+width: 8px;
+height: 8px;
+    content: "";
+    background-color: white;
+    transform: rotate(45deg);
+}

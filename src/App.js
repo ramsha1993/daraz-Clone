@@ -13,6 +13,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Sproduct from './Components/Product/Sproduct';
 import '@fontsource/roboto'; // Import all weights
 import { Provider } from 'react-redux';
+import Mainpage from './Components/Product/Mainpage';
 import store from './store/store';
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
 
 <Bottomnav /> </>} />
   <Route path='/product' element={<Sproduct/>}/>
+<Route path='/mainp' element={<Mainpage />}/>
 </Routes>
 <Footer />
   </Router>

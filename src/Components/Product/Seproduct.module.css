@@ -9,3 +9,25 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.iconimg{
+    display: inline-block;
+    background-image: url('C:\Users\HP\daraz-Clone\src\assets\mall.png');
+    background-size: cover;
+    height: 15px;
+    width: 38px;
+}
+.prodbox{
+    cursor: pointer;
+}
+.prodbox:hover{
+    box-shadow: 0px 0px 3px gray;
+}
+.box{
+    padding: 5px 10px;
+}
+.box .text{
+    display: -webkit-box; /* Enables the flexible box model for truncation */
+    -webkit-box-orient: vertical; /* Specifies vertical layout of lines */
+    -webkit-line-clamp: 2; /* Limits to 3 lines */
+    overflow: hidden; 
+}

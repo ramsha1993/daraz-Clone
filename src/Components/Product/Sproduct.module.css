@@ -51,3 +51,7 @@ button svg{
     color: gray;
     font-size: 13px;
 }
+.productbox h1{
+    font-size: 20px;
+    font-weight: 500;
+}

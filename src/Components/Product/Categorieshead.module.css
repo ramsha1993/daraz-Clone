@@ -1,0 +1,18 @@
+.category{
+    cursor: pointer;
+    /* position: absolute; */
+    }
+    .detail{
+    visibility: hidden;
+    /* transition: visibility 0.9s ease; */
+    
+    
+    }
+    .category:hover ~ .detail[data-cate="cate_1_2"]
+    {
+        visibility: visible;
+    }
+    
+    .category:hover ~ .detail[data-cate="cate_1_3"],.detail:hover{
+        visibility: visible;
+    }
